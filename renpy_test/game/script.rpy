@@ -1,5 +1,21 @@
 ﻿# The script of the game goes in this file.
 
+# add splashscreen
+label splashscreen:
+    scene black
+    with Pause(1)
+    play music "audio/crime_test.mp3" fadein 1.0
+
+    show text "Defect Games Presents..." with dissolve
+    with Pause(2)
+
+    hide text with dissolve
+    with Pause(1)
+
+    
+
+    return
+
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
